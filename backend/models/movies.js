@@ -1,13 +1,29 @@
 class Movie {
-    constructor(id, title, genre, duration, rating, year, liked) {
+
+    constructor(
+        id,
+        title,
+        synopsis,
+        duration,
+        release_year,
+        rating,
+        poster,
+        trailer,
+        genre_id
+    ) {
+
         this.id = id;
         this.title = title;
-        this.genre = genre;
+        this.synopsis = synopsis;
         this.duration = duration;
+        this.release_year = release_year;
         this.rating = rating;
-        this.year = year;
-        this.liked = liked;
+        this.poster = poster;
+        this.trailer = trailer;
+        this.genre_id = genre_id;
+
     }
+
 }
 
 module.exports = Movie;
