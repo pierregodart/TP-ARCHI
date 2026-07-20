@@ -1,5 +1,5 @@
 const movies = require("../data/movies");
-const IRecommendationRepository = require("./IRecommendationRepository");
+const IRecommendationRepository = require("../Repositories/IRecommendationRepository");
 
 class RecommendationRepository extends IRecommendationRepository {
 

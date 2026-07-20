@@ -1,4 +1,4 @@
-const RecommendationRepository = require("../repositories/recommendationRepository");
+const RecommendationRepository = require("./RecommendationRepository");
 const RecommendationService = require("../services/recommendationService");
 
 const repository = new RecommendationRepository();
