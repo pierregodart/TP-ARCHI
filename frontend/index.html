@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommandation de films</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🎬 Recommandation de films</h1>
+
+    <div class="search">
+
+        <label>Genre</label>
+        <select id="genre">
+            <option value="">Tous</option>
+            <option>Action</option>
+            <option>Comédie</option>
+            <option>Animation</option>
+            <option>Science-Fiction</option>
+            <option>Romance</option>
+            <option>Horreur</option>
+        </select>
+
+        <label>Durée maximale (minutes)</label>
+        <input type="number" id="duration" placeholder="120">
+
+        <button id="searchBtn">
+            Rechercher
+        </button>
+
+    </div>
+
+    <div id="movies" class="movies"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
