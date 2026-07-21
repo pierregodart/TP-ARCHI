@@ -27,3 +27,4 @@ class MovieService {
 }
 
 module.exports = MovieService;
+
