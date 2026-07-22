@@ -1,6 +1,5 @@
 const bcrypt = require("bcrypt");
-const UserRepository = require("../Repositories/UserRepository");
-
+const UserRepository = require("../Repositories/UsersRepository");
 class AuthService {
 
     constructor() {
